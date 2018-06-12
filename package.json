@@ -1,0 +1,22 @@
+{
+  "name": "jira-add-worklog",
+  "version": "0.0.0",
+  "description": "user can add worklog to a jira issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run pretest",
+    "pretest": "eslint --ignore-path .gitignore ."
+  },
+  "author": "Anindya Ghosh",
+  "license": "MIT",
+  "bin": {
+   "logwork": "./index.js"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "request": "^2.87.0"
+  }
+}
