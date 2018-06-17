@@ -10,10 +10,13 @@
   "author": "Anindya Ghosh",
   "license": "MIT",
   "bin": {
-   "logwork": "./index.js"
+    "logwork": "./index.js"
   },
   "devDependencies": {
     "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-strongloop": "^2.1.0",
