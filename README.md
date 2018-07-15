@@ -1,5 +1,5 @@
 # jira-add-worklog
-jira-add-worklog is a utility tool for jira users to log work hour against a issue. The best use case of this tool can be hooked it into git pre-commit / post-commit. So that, developer can log work against every commit without leaving the terminal.
+jira-add-worklog is a utility tool for jira users to log work hour against an issue. The best use case of this tool can be hooked it into git pre-commit / post-commit. So that, developer can log work against every commit without leaving the terminal.
 ## Installation
 It's advised to install the *jira-add-worklog* module as a devDependencies in your *package.json* as you only need this for development purposes. To install the module simply run:\
 ```npm install --save-dev jira-add-worklog```

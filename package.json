@@ -1,7 +1,7 @@
 {
   "name": "jira-add-worklog",
   "version": "0.0.0",
-  "description": "user can add worklog to a jira issue",
+  "description": "a utility tool for jira users to log work hour against an issue",
   "main": "index.js",
   "scripts": {
     "test": "npm run pretest",
@@ -12,6 +12,16 @@
   "bin": {
     "logwork": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anindya-ghosh/jira-add-worklog"
+  },
+  "keywords": [
+    "jira",
+    "worklog",
+    "utility",
+    "tool"
+  ],
   "devDependencies": {
     "chalk": "^2.4.1",
     "co": "^4.6.0",
