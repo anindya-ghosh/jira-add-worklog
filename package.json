@@ -22,7 +22,7 @@
     "utility",
     "tool"
   ],
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^2.4.1",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
