@@ -48,7 +48,7 @@ let args = {},
  * parse all supported arguments
  */
 program
-  .version('0.0.2', '-v, --version')
+  .version('0.0.4', '-v, --version')
   .option('-C, --config           [string]', 'Path to the config file. [default: logwork.config.js]', v => v, './logwork.config.js')
   .option('-u, --username         [string]', 'Username of jira account.')
   .option('-a, --api-token        [string]', 'API token for basic authentication. Generate an API token in jira.')

@@ -1,6 +1,6 @@
 {
   "name": "jira-add-worklog",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "a utility tool for jira users to log work hour against an issue",
   "main": "index.js",
   "scripts": {

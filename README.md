@@ -4,6 +4,14 @@ jira-add-worklog is a utility tool for jira users to log work hour against an is
 It's advised to install the *jira-add-worklog* module as a devDependencies in your *package.json* as you only need this for development purposes. To install the module simply run:\
 ```npm install --save-dev jira-add-worklog```
 ## Example
+```
+$ logwork -C $HOME/workspace/logwork.config.js
+issueIdOrKey: Issue-101
+timeSpent:[1h 30m] 2h
+comment: 'description for the work done'
+startDate:[2018-07-19] 2018-07-19 // default is current date
+startTime:[20:24:11.000] 20:24:11.000 // default is current time
+```
 ### Configuration (*option* **-C**)
 
 It takes the a file path for configuration (*.js*). For example: 
@@ -14,6 +22,13 @@ module.exports = {
   'email': <email id>,
   'domain': <domain name for jira>,
   'timeZone': <time zone offset>
+  /**
+    'timeSpent': <value>,
+    'issueIdOrKey': <value>,
+    'comment': <value>,
+    'startDate': <value>,
+    'startTime': <value>
+  */
 };
 ```
 Those options which do not ocassionally get changed can be stored in the configuration file.
